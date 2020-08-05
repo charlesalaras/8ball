@@ -14,7 +14,7 @@ possibleAnswers.at(0) = "It is certain.\n";
 possibleAnswers.at(1) = "It is decidedly so.\n";
 possibleAnswers.at(2) = "Without a doubt.\n";
 possibleAnswers.at(3) = "Yes - definitely.\n";
-possibleAnswers.at(4) = "You may rely fon it.\n";
+possibleAnswers.at(4) = "You may rely on it.\n";
 possibleAnswers.at(5) = "As I see it, yes.\n";
 possibleAnswers.at(6) = "Most likely.\n";
 possibleAnswers.at(7) = "Outlook good.\n";
@@ -37,7 +37,7 @@ bool validQuestion = false;
 bool validAnswer = false;
 while(continueProgram == true){
 userQuestion = "";
-cout << "Type your question for the 8 Ball. (must end of '?')" << endl;
+cout << "Type your question for the 8 Ball. (must end with '?')" << endl;
 cout << "> ";
 getline(cin, userQuestion);
 cout << endl;
